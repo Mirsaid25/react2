@@ -11,6 +11,9 @@ const ItemComponent = ({item}) => {
             <span>
                 {item.title}
             </span>
+            <span>
+                {item.title2}
+            </span>
             <span className='price'>{item.price}$</span>
         </div>
     );
